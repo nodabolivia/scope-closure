@@ -11,6 +11,7 @@ console.log(hello);
 
 var scope =  "global";
 const functionScope = ()=>{
+    //ambito lexico
     var scope = "local";
     const func =()=>{
         return scope
